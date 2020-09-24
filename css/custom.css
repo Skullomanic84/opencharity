@@ -1,0 +1,40 @@
+:root{
+    /* MAIN FONTS */
+    --headerFont: 'Aladin', cursive;
+    --bodyFont: 'Josefin Sans', sans-serif;
+
+    /* COLOR SCHEME */
+    --white: #ffffff;
+    --primaryColor: #ffc107;
+    --secondaryColor: #0097a7;
+    --grey : #757575;
+    --dark : #212121;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--bodyFont);
+    font-size: 200;
+    letter-spacing: .05rem;
+    background-color: var(--dark);
+}
+
+/* MAIN NAVIGATION */
+
+.lead-xl {
+    font-size: 1.75rem;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
